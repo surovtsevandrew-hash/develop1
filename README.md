@@ -1,1 +1,7 @@
-# develop1
+echo "# develop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/surovtsevandrew-hash/develop.git
+git push -u origin main
